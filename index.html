@@ -6,19 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validator</title>
     <link type="text/css"rel="stylesheet" href="/Css/Css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,400&display=swap" rel="stylesheet">
     <script src="/Js/Js.js"></script>
 </head>
 <body>
     <form action="#" method="post">
         <h1>Register now</h1>
         <label for="username">Username</label>
-        <input id ="username" name="username" type="text" placeholder="Enter username">
+        <input id ="username" name="username" type="text" placeholder="Enter username" required>
         <label for="email">Email</label>
-        <input id ="email" name="email" type="email" placeholder="Enter email">
+        <input id ="email" name="email" type="email" placeholder="Enter email" required>
         <label for="password">Password</label>
-        <input id ="password" name="password" type="password" placeholder="Enter password">
+        <input id ="password" name="password" type="password" placeholder="Enter password" required>
         <label for="password2">Confirm Password</label>
-        <input id ="password2" name="password2" type="password" placeholder="Enter password again">
+        <input id ="password2" name="password2" type="password" placeholder="Enter password again" required>
         <input  class="button-submit" type="submit" value="Submit" for="#">
     </form>
     
