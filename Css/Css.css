@@ -1,0 +1,49 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Calibrí", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #e8e8f1;
+
+}
+
+form
+{
+    background: linear-gradient(205deg, rgba(73,70,154,1) 25%, rgba(213,30,30,1) 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px #000;
+
+}
+h1
+{
+    text-align: center;
+}
+
+label
+{
+    font-size: 24px;
+    margin: 0 30px;
+}
+input
+{
+    margin: 0 30px;
+    border: none;
+    font-size: 20px;
+    height: 30px;
+    line-height: 20px;
+    border-radius: 1.5px;
+    outline: none;
+
+}

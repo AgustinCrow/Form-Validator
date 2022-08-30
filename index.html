@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validator</title>
-    <link rel="stylesheet" href="/Css/Css.css">
+    <link type="text/css"rel="stylesheet" href="/Css/Css.css">
     <script src="/Js/Js.js"></script>
 </head>
 <body>
     <form action="#" method="post">
-        <label for="username"><input type="text"></label>
-        <label for="email"><input type="email"></label>
-        <label for="password"><input type="password"></label>
-        <label for="password2"><input type="password"></label>
+        <h1>Register now</h1>
+        <label for="username">Username</label>
+        <input id ="username" name="username" type="text" placeholder="Enter username">
+        <label for="email">Email</label>
+        <input id ="email" name="email" type="email" placeholder="Enter email">
+        <label for="password">Password</label>
+        <input id ="password" name="password" type="password" placeholder="Enter password">
+        <label for="password2">Confirm Password</label>
+        <input id ="password2" name="password2" type="password" placeholder="Enter password again">
+        <input  class="button-submit" type="submit" value="Submit" for="#">
     </form>
     
 </body>
