@@ -3,13 +3,13 @@ body
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-family: "Calibrí", sans-serif;
+    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    background-color: #e8e8f1;
+    color: #d1d1d1;
+    background-color: #0f0f0f;
 
 }
 
@@ -29,21 +29,32 @@ form
 h1
 {
     text-align: center;
+    color: #fff;
+    letter-spacing: 5px;
 }
 
 label
 {
     font-size: 24px;
     margin: 0 30px;
+    letter-spacing: 1px;
+
 }
 input
 {
     margin: 0 30px;
     border: none;
     font-size: 20px;
-    height: 30px;
-    line-height: 20px;
+    height: 40px;
     border-radius: 1.5px;
     outline: none;
+    color: #3f3f3f;
 
+}
+input.button-submit
+{
+    background-color: #7553F1;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
 }
