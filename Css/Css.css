@@ -46,10 +46,17 @@ input
     border: none;
     font-size: 20px;
     height: 40px;
-    border-radius: 1.5px;
+    border-radius: 2.9px;
     outline: none;
     color: #3f3f3f;
 
+}
+small
+{
+   color: #f32a5f;
+   margin: 0 35px;
+   font-size: 19px;
+   visibility: hidden;
 }
 input.button-submit
 {
