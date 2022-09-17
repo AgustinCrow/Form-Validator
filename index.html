@@ -9,25 +9,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,400&display=swap" rel="stylesheet">
-    <script src="/Js/Js.js"></script>
 </head>
 <body>
-    <form action="#" onsubmit="event.preventDefault()" method="post" id="form">
+    <form action="#"  method="post" id="form">
         <h1>Register now</h1>
         <label id="myBtn" for="username">Username</label>
-        <input id ="username" name="username" type="text" placeholder="Enter username" required>
-        <small>Username must be at least 3 characters</small>
+        <input id ="username" name="username" type="text" placeholder="Enter username">
+        <small class="message-error"></small>
         <label for="email">Email</label>
-        <input id ="email" name="email" type="email" placeholder="Enter email" required>
-        <small>Username must be at least 3 characters</small>
+        <input id ="email" name="email" type="email" placeholder="Enter email">
+        <small class="message -error"></small>
         <label for="password">Password</label>
-        <input id ="password" name="password" type="password" placeholder="Enter password" required>
-        <small>Username must be at least 3 characters</small>
+        <input id ="password" name="password" type="password" placeholder="Enter password">
+        <small class="message -error"></small>
         <label for="password2">Confirm Password</label>
-        <input id ="password2" name="password2" type="password" placeholder="Enter password again" required>
-        <small>Username must be at least 3 characters</small>
-        <input  class="button-submit" type="submit" value="Submit" for="#" id="submit">
+        <input id ="password2" name="password2" type="password" placeholder="Enter password again">
+        <small class="message -error"></small>
+        <input class="button-submit" type="submit" value="Submit" for="#" id="submit">
+        <!--onclick="window.history.go(-1); return false;"--> 
     </form>
-    
+    <script src="/Js/Js.js"></script>
 </body>
 </html>
